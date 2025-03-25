@@ -3106,9 +3106,11 @@ draw(void)
 		cx--;
 
 	drawregion(0, 0, term.col, term.row);
-	xdrawcursor(cx, term.c.y, term.line[term.c.y][cx],
-		term.ocx, term.ocy, term.line[term.ocy][term.ocx],
-		term.line[term.ocy], term.col);
+  if (!term.scr) {
+      xdrawcursor(cx, term.c.y, term.line[term.c.y][cx],
+        term.ocx, term.ocy, term.line[term.ocy][term.ocx],
+        term.line[term.ocy], term.col);
+  }
 	term.ocx = cx;
 	term.ocy = term.c.y;
 	xfinishdraw();
