@@ -5,8 +5,13 @@ st is a simple terminal emulator for X which sucks less.
 This is custom, with the following changes:
 - delete works
 - ctrl+shift+plus/minus to inc/dec font size
-- the following [scrollback patches](https://st.suckless.org/patches/scrollback/)
-- transparency from [this commit by Tharre](https://github.com/Tharre/st-transparency/commit/da5e2454c0e7ec252c92414b911cb5535052e60c)
+- the following scrollback patches from https://st.suckless.org/patches/scrollback/
+  1. basic: https://st.suckless.org/patches/scrollback/st-scrollback-0.9.2.diff
+  2. reflow: https://st.suckless.org/patches/scrollback/st-scrollback-reflow-0.9.2.diff
+  3. mouse: https://st.suckless.org/patches/scrollback/st-scrollback-mouse-0.9.2.diff
+  4. mouse-altscreen: https://st.suckless.org/patches/scrollback/st-scrollback-mouse-altscreen-20220127-2c5edf2.diff
+- glyph wide support: https://st.suckless.org/patches/glyph_wide_support/st-glyph-wide-support-20230701-5770f2f.diff
+- transparency from this commit by Tharre: https://github.com/Tharre/st-transparency/commit/da5e2454c0e7ec252c92414b911cb5535052e60c.diff
 
 I consider these to be sane defaults, with a bit of eye candy.
 
