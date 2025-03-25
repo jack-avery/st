@@ -6,6 +6,8 @@ VERSION = 0.9.2
 # paths
 PREFIX = /usr/local
 MANPREFIX = $(PREFIX)/share/man
+APPPREFIX = $(PREFIX)/share/applications
+ICOPREFIX = $(PREFIX)/share/icons
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib

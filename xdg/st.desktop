@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=st
+GenericName=Terminal Emulator
+Comment=suckless terminal
+TryExec=st
+Exec=st
+Icon=ICON
+Categories=System;TerminalEmulator;
