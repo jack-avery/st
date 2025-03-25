@@ -30,6 +30,10 @@ necessary as root):
 
     make clean install
 
+For Nix (and NixOS) users, a nix flake is provided:
+
+    nix --experimental-features "flakes nix-command" build
+
 
 Running st
 ----------
