@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono NF:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrainsMono NF:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -150,7 +150,7 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
+static unsigned int cols = 110;
 static unsigned int rows = 24;
 
 /*
