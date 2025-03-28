@@ -19,6 +19,8 @@ Requirements
 ------------
 In order to build st you need the Xlib header files.
 
+For Nix (and NixOS) users, the provided nix flake handles dependencies for you.
+
 
 Installation
 ------------
