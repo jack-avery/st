@@ -36,6 +36,8 @@ For Nix (and NixOS) users, a nix flake is provided:
 
     nix --experimental-features "flakes nix-command" build
 
+Please note the Nix flake does not compile the terminfo. Refer to the next section.
+
 
 Running st
 ----------
